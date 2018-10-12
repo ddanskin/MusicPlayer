@@ -27,6 +27,14 @@
             android:layout_height="wrap_content"
             android:text="STOP"
             android:onClick="stopMusic"/>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:onClick="resetMusic"/>
+
     </LinearLayout>
 
 </LinearLayout>

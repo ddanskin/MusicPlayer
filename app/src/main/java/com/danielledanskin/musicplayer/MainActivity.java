@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
     public void stopMusic(View view) {
         mediaPlayer.pause();
     }
+
+    public void resetMusic(View view) {
+        mediaPlayer.seekTo(0);
+    }
 }
