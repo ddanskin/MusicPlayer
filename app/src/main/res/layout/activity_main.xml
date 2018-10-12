@@ -18,13 +18,15 @@
             android:id="@+id/start_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:text="START" />
+            android:text="START"
+            android:onClick="startMusic"/>
 
         <Button
             android:id="@+id/stop_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:text="STOP" />
+            android:text="STOP"
+            android:onClick="stopMusic"/>
     </LinearLayout>
 
 </LinearLayout>
