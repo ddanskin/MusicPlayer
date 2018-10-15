@@ -33,22 +33,19 @@
             android:id="@+id/start_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:text="START"
-            android:onClick="startMusic"/>
+            android:text="START" />
 
         <Button
             android:id="@+id/stop_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:text="STOP"
-            android:onClick="stopMusic"/>
+            android:text="STOP" />
 
         <Button
             android:id="@+id/reset_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:text="RESET"
-            android:onClick="resetMusic"/>
+            android:text="RESET" />
 
     </LinearLayout>
 
