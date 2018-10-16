@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 Toast.makeText(getApplicationContext(), "song finished!", Toast.LENGTH_SHORT).show();
+                mediaPlayer.release();
             }
         });
 
